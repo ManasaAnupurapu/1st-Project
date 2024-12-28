@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hibernate-configuration>
+	<session-factory>
+		<property name="hibernate.connection.Driver_class">
+			com.mysql.cj.jdbc.Driver</property>
+		<property name="hibernate.connection.url">
+			jdbc:mysql://localhost:3306/ApartmentManagementSystem</property>
+		<property name="hibernate.connection.user">root</property>
+		<property name="hibernate.connection.password">@manasa</property>
+		<property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
+		<property name="hibernate.show_sql">true</property>
+		<property name="hibernate.hbm2ddl.auto">update</property>
+
+<property name="hibernate.show_sql">true</property>
+<property name="hibernate.format_sql">true</property>
+
+		
+		<mapping class="com.ApartmentManagementSystem.entity.Apartment" />
+
+		<mapping class="com.ApartmentManagementSystem.entity.Resident" />
+		
+		<mapping class="com.ApartmentManagementSystem.entity.Owner" />
+		
+		<mapping class="com.ApartmentManagementSystem.entity.MaintenanceRequest" />
+		
+		<mapping class="com.ApartmentManagementSystem.entity.Complaints" />
+		
+		<mapping class="com.ApartmentManagementSystem.entity.Payment" />
+		
+
+		<mapping class="com.ApartmentManagementSystem.utility.ApartmentManagementOperations" />
+		<mapping class="com.ApartmentManagementSystem.utility.ConfigurationUtility" />
+
+	</session-factory>
+</hibernate-configuration>
+ 

@@ -1,0 +1,122 @@
+<project> xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.hibernate</groupId>
+  <artifactId>ApartmentMangement</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+   <dependencies>
+		<!-- https://mvnrepository.com/artifact/org.hibernate.orm/hibernate-core -->
+		<dependency>
+			<groupId>org.hibernate.orm</groupId>
+			<artifactId>hibernate-core</artifactId>
+			<version>6.0.0.Alpha8</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
+		<dependency>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+			<version>8.0.32</version>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<version>1.18.34</version>
+			<scope>provided</scope><dependencies>
+  
+    <!-- JUnit 5 Dependency -->
+    <dependency>
+        <groupId>org.junit.jupiter</groupId>
+        <artifactId>junit-jupiter-api</artifactId>
+        <version>5.8.2</version>
+        <scope>test</scope>
+    </dependency>
+    <dependency>
+        <groupId>org.junit.jupiter</groupId>
+        <artifactId>junit-jupiter-engine</artifactId>
+        <version>5.8.2</version>
+        <scope>test</scope>
+    </dependency>
+
+    <!-- Mockito for mocking dependencies -->
+    <dependency>
+        <groupId>org.mockito</groupId>
+        <artifactId>mockito-core</artifactId>
+        <version>4.5.1</version>
+        <scope>test</scope>
+    </dependency>
+<dependencies>
+    <!-- Mockito dependency -->
+    
+    <!-- Add Byte Buddy dependency for Mockito's internal usage -->
+    <dependency>
+        <groupId>net.bytebuddy</groupId>
+        <artifactId>byte-buddy</artifactId>
+        <version>1.12.18</version>  <!-- Latest version as of this writing -->
+        <scope>test</scope>
+    </dependency>
+</dependencies>
+<dependencies>
+  
+
+    <!-- Mockito inline for advanced mocking (e.g., final methods, static methods) -->
+   
+<dependencies>
+    <!-- Mockito Core -->
+    <dependency>
+        <groupId>org.mockito</groupId>
+        <artifactId>mockito-core</artifactId>
+        <version>5.6.0</version>
+        <scope>test</scope>
+    </dependency>
+
+    <!-- Mockito Inline (required for advanced mocking, like final methods, static methods) -->
+    <dependency>
+        <groupId>org.mockito</groupId>
+        <artifactId>mockito-inline</artifactId>
+        <version>5.6.0</version>
+        <scope>test</scope>
+    </dependency>
+
+    <!-- Byte Buddy (for bytecode manipulation used by Mockito) -->
+    <dependency>
+        <groupId>net.bytebuddy</groupId>
+        <artifactId>byte-buddy</artifactId>
+        <version>1.12.18</version>
+        <scope>test</scope>
+    </dependency>
+
+    <!-- Byte Buddy Agent (required for inline mock creation) -->
+    <dependency>
+        <groupId>net.bytebuddy</groupId>
+        <artifactId>byte-buddy-agent</artifactId>
+        <version>1.12.18</version>
+        <scope>test</scope>
+    </dependency>
+</dependencies>
+
+    
+
+    <!-- Byte Buddy agent (if using inline mocks) -->
+  
+</dependencies>
+
+    <!-- Hibernate for session mocking (if necessary) -->
+    <dependency>
+        <groupId>org.hibernate</groupId>
+        <artifactId>hibernate-core</artifactId>
+        <version>5.6.9.Final</version>
+        <scope>test</scope>
+    </dependency>
+</dependencies>
+
+		</dependency>
+
+		<dependency>
+			<groupId>com.apjfsa</groupId>
+			<artifactId>Apjfsa</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+   </dependencies>
+
+</project>
